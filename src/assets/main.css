@@ -1,38 +1,56 @@
 
 body {
-  font-family: 'Helvetica Neue', serif;
-  font-size: 18px;
+  font-family : 'Helvetica Neue', serif;
+  font-size   : 18px;
 }
 
 #badges {
   text-align: center;
 }
 
-.course {
-  background: #F5F5F5;
-  border-radius: 5px;
-  border: 1px solid #ccc;
-  box-shadow: 1px 1px 5px #EAEAEA;
+.perfil {
+  border           : 1px dashed teal;
+  height           : 200px;
+}
+
+.perfil_avatar {
+  border: 2px dashed red;
+}
+
+.detalle {
+  padding: 20px;
+}
+
+.detalle li {
   display: inline-block;
-  height: 350px;
-  margin: 20px 10px;
-  padding: 15px 10px;
-  width: 200px;
+}
+
+.course {
+  background    : #F5F5F5;
+  border-radius : 5px;
+  border        : 1px solid #ccc;
+  box-shadow    : 1px 1px 5px #EAEAEA;
+  display       : inline-block;
+  height        : 350px;
+  margin        : 20px 10px;
+  padding       : 15px 10px;
+  width         : 200px;
 }
 
 .course h3 {
-  color: #999;
-  font-size: 1.9rem;
-  font-weight: 200;
-  min-height: 80px;;
+  /* color       : #999; */
+  color: #337ab7;
+  font-size   : 1.9rem;
+  font-weight : bold;
+  min-height  : 80px;
 }
 
 .course img {
-  border: none;
-  height: 150px;
-  margin-bottom: 20px;
-  max-width: 100%;
-  width: 150px;
+  border        : none;
+  height        : 150px;
+  margin-bottom : 20px;
+  max-width     : 100%;
+  width         : 150px;
 }
 
 .course a {
